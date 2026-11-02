@@ -1,0 +1,44 @@
+# OctoAcme Project Management Docs
+
+## Overview
+OctoAcme uses a lightweight, cross-functional project management model designed to align stakeholders, maintain clear ownership, and support iterative delivery. The process begins with initiation and planning, moves through execution and tracking, and closes with release, retrospective, and continuous improvement. The goal is to keep work visible, accountable, and adaptable while ensuring teams can deliver value with confidence.
+
+## Project management process summary
+OctoAcme’s workflow is organized around a practical lifecycle:
+
+- Initiation: validate the business need, confirm stakeholders, define success criteria, and decide whether the work should proceed.
+- Planning: translate the approved initiative into a backlog, timeline, dependencies, and milestones with clear ownership.
+- Execution & tracking: run daily standups and weekly syncs, track progress on the project board, and escalate blockers through defined ownership paths.
+- Risk & communication: document risks, monitor dependencies, and keep stakeholders informed with regular status updates and escalation guidance.
+- Release & deployment: verify quality through testing and smoke checks, execute the deployment, and communicate outcomes and rollback readiness.
+- Retrospective & improvement: capture learnings, turn them into action items, and review progress continuously to improve delivery over time.
+
+## Roles and responsibilities
+The process relies on a small set of clear personas:
+
+- Project Manager (PM): coordinates schedules, risks, dependencies, and communication.
+- Product Manager (PdM): defines outcomes, prioritizes the work, and measures success.
+- Developers: implement features, write tests, and help assess risks and technical trade-offs.
+- QA / Testing: validate quality and acceptance criteria during implementation and release.
+- Stakeholders: provide input, approvals, and priority direction.
+
+This role clarity helps keep accountability visible while supporting cross-functional teamwork.
+
+## Communication strategy
+Communication is structured around recurring team and stakeholder rhythms. OctoAcme recommends daily standups for delivery teams, weekly PM/Product syncs, demos at the end of each sprint or milestone, and stakeholder updates on a regular cadence. The team also uses escalation paths for blockers, including PM and product lead escalation for unresolved issues and sponsor-level escalation for business-impacting problems. Risk and incident communication are treated as formal parts of the process, with a single source of truth for status and ongoing updates.
+
+## Quality assurance practices
+Quality is built into the delivery process rather than left to the end. Teams are expected to define and review acceptance criteria, run automated tests and linting in CI, perform security scanning, and execute relevant integration or smoke tests for critical workflows. Manual QA is used where needed for feature acceptance, and the release process requires validation before deployment, including rollback planning and post-deploy verification. After each sprint or milestone, retrospectives capture lessons learned and convert them into actionable improvement items with owners and due dates.
+
+## Documents in this repo
+- [Project Management Overview](octoacme-project-management-overview.md) — high-level view of roles, artifacts, and lifecycle
+- [Project Initiation Guide](octoacme-project-initiation.md) — how to validate ideas and establish the project foundation
+- [Project Planning](octoacme-project-planning.md) — backlog creation, milestones, dependencies, and planning cadence
+- [Execution & Tracking](octoacme-execution-and-tracking.md) — standups, metrics, board workflow, and blocker escalation
+- [Risk Management & Communication](octoacme-risks-and-communication.md) — risk register, communication cadence, and escalation paths
+- [Release & Deployment Guide](octoacme-release-and-deployment.md) — deployment checklist, rollback playbook, and release notes
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — retrospectives and tracking improvement actions
+- [Roles & Personas](octoacme-roles-and-personas.md) — common project roles and responsibilities used in the process
+
+## How to use this set
+Use the project overview to understand the overall model, then move into the document that matches your stage or responsibility. This documentation set is intended to give teams a shared way of working without adding unnecessary process overhead.
